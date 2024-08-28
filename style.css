@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: white;
+}
+
+#site {
+  height: 940px;
+  width: 1850px;
+  margin: 13px auto;
+}
+
+header {
+  height: 140px;
+  width: auto;
+  background-color: #005c81;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+#name {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  font-size: 70px;
+  padding: 20px 100px;
+  color: white;
+}
+
+#content {
+  display: flex;
+  gap: 30px;
+}
+
+#cleft {
+  width: 910px;
+  height: 780px;
+  background-color: #031c30;
+  float: left;
+  border-radius: 12px;
+}
+
+#cleft p {
+  color: white;
+  padding: 30px 20px;
+  height: 680px;
+  font-size: 29px;
+  text-align: left;
+}
+
+#cright {
+  width: 910px;
+  height: 780px;
+  background-color: white;
+  float: left;
+  border-radius: 12px;
+}
+
+#cright img {
+  width: 910px;
+  height: 780px;
+  border-radius: 12px;
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  width: auto;
+  margin-top: 15px;
+  background-color: rgb(72, 48, 120);
+  border-radius: 12px;
+  gap: 1150px;
+  margin-bottom: 11px;
+}
+
+#generate-buttom {
+  margin-left: 280px;
+  align-content: center;
+  padding-top: 5px;
+}
+
+#generate-buttom a {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+  font-size: 29px;
+  border-radius: 35px;
+  padding: 15px 25px;
+  border: 1px solid rgb(143, 135, 135);
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background 0.5s;
+}
+
+#generate-buttom a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1.5px solid white;
+}
+
+#ig {
+  display: block;
+  color: white;
+  padding-top: 75px;
+}
+
+#fim {
+  border: 1px solid white;
+}
